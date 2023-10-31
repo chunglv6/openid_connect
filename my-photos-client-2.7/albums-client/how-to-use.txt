@@ -1,0 +1,28 @@
+Instructions on running "My Photos Client" from Windows/Linux/Mac
+=================================================================
+
+Steps: 
+
+1. Install JDK 19 from the following Site
+
+    https://jdk.java.net/java-se-ri/19
+    
+
+2. Install Maven from the following site
+    
+    https://maven.apache.org/install.html
+
+
+3. This project can be run with Google Authorization Server or Okta 
+   Authorization Server. Depending on which authorization server, the 
+   setup will be slightly different.Those instructions will be given
+   after the appropriate lecture.
+    
+4. To run the My Photos Client at port 8080 (Step 3 should be followed before this)
+
+    mvn spring-boot:run 
+
+5. Access the "My Photos Client" as 
+
+    http://localhost:8080/
+    
